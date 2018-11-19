@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/thurly/modules/iblock/admin/iblock_history_list.php");?>

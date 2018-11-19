@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2008-12-30T17:31:12">
+	<Metadata>
+		<Id>9</Id>
+		<Title>Departments</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Start time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>End time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Preview picture</Title>
+				<Multiple>false</Multiple>
+			</Property>
+		</Properties>
+		<Sections>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>9</Id>
+		<MetadataId>9</MetadataId>
+		<Title>Departments</Title>
+		<ThurlyCode>departments</ThurlyCode>
+		<ThurlySort>500</ThurlySort>
+		<ThurlyListURL>#SITE_DIR#company/structure.php</ThurlyListURL>
+		<ThurlyDetailURL></ThurlyDetailURL>
+		<ThurlySectionURL>#SITE_DIR#company/structure.php?set_filter_structure=Y&amp;structure_UF_DEPARTMENT=#ID#</ThurlySectionURL>
+		<ThurlyPicture></ThurlyPicture>
+		<ThurlyIndexElements>false</ThurlyIndexElements>
+		<ThurlyIndexSections>true</ThurlyIndexSections>
+		<ThurlyWorkflow>false</ThurlyWorkflow>
+		<ThurlyLabels>
+			<ThurlyLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>Item</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>Items</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Add Item</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Edit Item</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Delete Item</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Department</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Departments</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Add Department</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Edit Department</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Delete Department</Value>
+			</ThurlyLabel>
+		</ThurlyLabels>
+		<Elements>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

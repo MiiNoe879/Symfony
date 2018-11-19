@@ -1,0 +1,1 @@
+<?require($_SERVER['DOCUMENT_ROOT'].'/thurly/modules/catalog/tools/get_catalog_menu.php');?>

@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/thurly/modules/mail/admin/mail_message_admin.php");?>

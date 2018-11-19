@@ -1,0 +1,158 @@
+CModule::IncludeModule("crm");
+$c = new \Thurly\Crm\Integrity\LeadDuplicateChecker();
+$a = \Thurly\Crm\EntityAdapterFactory::create();
+$a->setFields(
+   array(
+      //'LAST_NAME' => 'Никифоров',
+      //'NAME' => 'Евгений',
+      //'SECOND_NAME' => 'Петрович',
+      //'COMPANY_TITLE' => 'Lorem Ipsum'
+      'FM' => array(
+        'EMAIL' => array(array('VALUE' => 'Lorem@example.com'))
+	//'PHONE' => array(array('VALUE' => '+7-555-555-55-55'))
+      )
+   )
+);
+ $p = new \Thurly\Crm\Integrity\DuplicateCheckParams();
+ $dupArry = $c->findDuplicates($a, $p);
+ foreach($dupArry as $dup)
+ {
+   echo mydump($dup->getEntityArray());
+   echo('<br/>---------<br/>');
+ }
+
+CModule::IncludeModule("crm");
+ $c = new \Thurly\Crm\Integrity\CompanyDuplicateChecker();
+ $a = \Thurly\Crm\EntityAdapterFactory::create();
+ $a->setFields(
+   array(
+      'TITLE' => 'Young Italy Inc.'
+      'FM' => array(
+        'EMAIL' => array(array('VALUE' => 'youngitaly@example.com')),
+	    'PHONE' => array(array('VALUE' => '+7-555-555-55-55'))
+      )
+   )
+ );
+ $p = new \Thurly\Crm\Integrity\DuplicateCheckParams();
+ $dupArry = $c->findDuplicates($a, $p);
+ foreach($dupArry as $dup)
+ {
+   echo mydump($dup->getEntityArray());
+   echo('<br/>---------<br/>');
+ }
+
+ CModule::IncludeModule("crm");
+  $c = new \Thurly\Crm\Integrity\ContactDuplicateChecker();
+  $a = \Thurly\Crm\EntityAdapterFactory::create();
+  $a->setFields(
+    array(
+      'LAST_NAME' => 'Garibaldi',
+      'NAME' => 'Giuseppe',
+      'SECOND_NAME' => '',
+       'FM' => array(
+         'EMAIL' => array(array('VALUE' => 'garibaldi@example.com')),
+ 	    'PHONE' => array(array('VALUE' => '+7-555-555-55-55'))
+       )
+    )
+  );
+  $p = new \Thurly\Crm\Integrity\DuplicateCheckParams();
+  $dupArry = $c->findDuplicates($a, $p);
+  foreach($dupArry as $dup)
+  {
+    echo mydump($dup->getEntityArray());
+    echo('<br/>---------<br/>');
+  }
+
+
+
+// find duplicates by INN
+Thurly\Main\Loader::includeModule('crm');
+
+$fields = array(
+	'RQ' => array(
+		'n0' => array(
+			'ID' => 'n0',
+			'PRESET_ID' => 1,    // If PRESET_COUNTRY_ID is set, then PRESET_ID is not required to search for duplicates
+			'PRESET_COUNTRY_ID' => 1,
+			'RQ_INN' => '9108116590'
+		)
+	)
+);
+
+$checker = new Thurly\Crm\Integrity\CompanyDuplicateChecker();
+$checker->setStrictComparison(false);
+$adapter = Thurly\Crm\EntityAdapterFactory::create($fields, \CCrmOwnerType::Company);
+$dups = $checker->findDuplicates($adapter, new Thurly\Crm\Integrity\DuplicateSearchParams());
+/** @var $dup Thurly\Crm\Integrity\Duplicate */
+foreach($dups as $dup)
+{
+	echo mydump($dup->getEntityArray());
+	echo('<br/>---------<br/>');
+}
+
+// find duplicates by account number
+Thurly\Main\Loader::includeModule('crm');
+
+$fields = array(
+	'RQ' =>	array(
+		'n0' => array(
+			'ID' => 'n0',
+			'PRESET_ID' => 1,    // If PRESET_COUNTRY_ID is set, then PRESET_ID is not required to search for duplicates
+			'PRESET_COUNTRY_ID' => 1,
+			'BD' => array(
+				'n0' => array(
+					'ID' => 'n0',
+					'ENTITY_TYPE_ID' => 8,
+					'ENTITY_ID' => 'n0',
+					'COUNTRY_ID' => 1,
+					'RQ_ACC_NUM' => '40702810300320090107'
+				)
+			)
+		)
+	)
+);
+
+$checker = new Thurly\Crm\Integrity\CompanyDuplicateChecker();
+$checker->setStrictComparison(false);
+$adapter = Thurly\Crm\EntityAdapterFactory::create($fields, \CCrmOwnerType::Company);
+$dups = $checker->findDuplicates($adapter, new Thurly\Crm\Integrity\DuplicateSearchParams());
+/** @var $dup Thurly\Crm\Integrity\Duplicate */
+foreach($dups as $dup)
+{
+	echo mydump($dup->getEntityArray());
+	echo('<br/>---------<br/>');
+}
+
+// find duplicates by INN or account number
+Thurly\Main\Loader::includeModule('crm');
+
+$fields = array(
+	'RQ' =>	array(
+		'n0' => array(
+			'ID' => 'n0',
+			'PRESET_ID' => 1,    // If PRESET_COUNTRY_ID is set, then PRESET_ID is not required to search for duplicates
+			'PRESET_COUNTRY_ID' => 1,
+			'RQ_INN' => '9108116590',    // INN
+			'BD' => array(
+				'n0' => array(
+					'ID' => 'n0',
+					'ENTITY_TYPE_ID' => 8,
+					'ENTITY_ID' => 'n0',
+					'COUNTRY_ID' => 1,
+					'RQ_ACC_NUM' => '40702810300320090107'    // account number
+				)
+			)
+		)
+	)
+);
+
+$checker = new Thurly\Crm\Integrity\CompanyDuplicateChecker();
+$checker->setStrictComparison(false);
+$adapter = Thurly\Crm\EntityAdapterFactory::create($fields, \CCrmOwnerType::Company);
+$dups = $checker->findDuplicates($adapter, new Thurly\Crm\Integrity\DuplicateSearchParams());
+/** @var $dup Thurly\Crm\Integrity\Duplicate */
+foreach($dups as $dup)
+{
+	echo mydump($dup->getEntityArray());
+	echo('<br/>---------<br/>');
+}

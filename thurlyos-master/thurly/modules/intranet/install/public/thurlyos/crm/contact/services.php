@@ -1,0 +1,10 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/thurly/header.php");
+$APPLICATION->SetTitle(GetMessage("TITLE"));
+?><?$APPLICATION->IncludeComponent(
+	"thurly:crm.contact.webservice",
+	"",
+	Array(
+	),
+false
+);?><?require($_SERVER["DOCUMENT_ROOT"]."/thurly/footer.php");?>

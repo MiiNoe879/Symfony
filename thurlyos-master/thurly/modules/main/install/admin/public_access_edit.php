@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/thurly/modules/main/public/access_edit.php");?>

@@ -1,0 +1,4 @@
+<?
+$MESS["VOX_IVR_LIST_SELECTED"] = "Total";
+$MESS["VOX_IVR_LIST_ADD"] = "Add IVR";
+?>

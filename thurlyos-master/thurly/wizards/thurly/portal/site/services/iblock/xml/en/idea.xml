@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2011-11-15T16:29:28">
+	<Metadata>
+		<Id>idea</Id>
+		<Title>Idea manager categories</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_ACTIVE</Id>
+				<Title>ThurlyActive</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Start time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>End time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_DETAIL_TEXT</Id>
+				<Title>Description</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Preview picture</Title>
+				<Multiple>false</Multiple>
+			</Property>
+		</Properties>
+		<Sections>
+			<Section>
+				<Id>171</Id>
+				<Title>Holidays</Title>
+				<ThurlyActive>true</ThurlyActive>
+				<ThurlySort>500</ThurlySort>
+				<ThurlyCode>our_events</ThurlyCode>
+				<ThurlyPicture></ThurlyPicture>
+				<ThurlyDetailPicture></ThurlyDetailPicture>
+				<Sections>
+				</Sections>
+			</Section>
+			<Section>
+				<Id>168</Id>
+				<Title>Company Activity</Title>
+				<ThurlyActive>true</ThurlyActive>
+				<ThurlySort>500</ThurlySort>
+				<ThurlyCode>company</ThurlyCode>
+				<ThurlyPicture></ThurlyPicture>
+				<ThurlyDetailPicture></ThurlyDetailPicture>
+				<Sections>
+					<Section>
+						<Id>170</Id>
+						<Title>International business</Title>
+						<ThurlyActive>true</ThurlyActive>
+						<ThurlySort>500</ThurlySort>
+						<ThurlyCode>outside</ThurlyCode>
+						<ThurlyPicture></ThurlyPicture>
+						<ThurlyDetailPicture></ThurlyDetailPicture>
+						<Sections>
+						</Sections>
+					</Section>
+					<Section>
+						<Id>169</Id>
+						<Title>Domestic business</Title>
+						<ThurlyActive>true</ThurlyActive>
+						<ThurlySort>500</ThurlySort>
+						<ThurlyCode>inside</ThurlyCode>
+						<ThurlyPicture></ThurlyPicture>
+						<ThurlyDetailPicture></ThurlyDetailPicture>
+						<Sections>
+						</Sections>
+					</Section>
+				</Sections>
+			</Section>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>idea</Id>
+		<MetadataId>idea</MetadataId>
+		<Title>Idea manager categories</Title>
+		<ThurlyCode>idea</ThurlyCode>
+		<ThurlySort>500</ThurlySort>
+		<ThurlyListURL></ThurlyListURL>
+		<ThurlyDetailURL></ThurlyDetailURL>
+		<ThurlySectionURL></ThurlySectionURL>
+		<ThurlyPicture></ThurlyPicture>
+		<ThurlyIndexElements>false</ThurlyIndexElements>
+		<ThurlyIndexSections>false</ThurlyIndexSections>
+		<ThurlyWorkflow>false</ThurlyWorkflow>
+		<ThurlyLabels>
+			<ThurlyLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>Idea</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>Ideas</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Add Idea</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Edit Idea</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Delete Idea</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Category</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Categories</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Add Category</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Edit Category</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Delete Category</Value>
+			</ThurlyLabel>
+		</ThurlyLabels>
+		<Elements>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

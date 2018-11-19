@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/thurly/modules/catalog/admin/cat_subcoupons_admin.php");?>

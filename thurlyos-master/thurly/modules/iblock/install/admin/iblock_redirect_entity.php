@@ -1,0 +1,1 @@
+<?require($_SERVER['DOCUMENT_ROOT'].'/thurly/modules/iblock/admin/redirect_entity.php');

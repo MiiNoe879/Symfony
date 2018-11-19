@@ -1,0 +1,48 @@
+<?
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_API_TOKEN_NAME"] = "Access token";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_REGISTER"] = "Bot registration";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_TESTED"] = "Connection test";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_CONNECTOR_ERROR_STATUS"] = "Bot error. Please check credential and test connection again";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_CREATE_NEW_BOT"] = "Create new bot";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_THERE_IS_A_BOT_TO_KNOW_THE_TOKEN"] = "Token lookup for existing bot";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_I_KNOW_TOKEN"] = "I have the token";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_NAME_BOT"] = "Bot name";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_LINK_BOT"] = "Bot link";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_6_STEPS_TITLE"] = "Complete 6 steps to create Telegram bot";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_1_OF_6"] = "step 1 of 6";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_2_OF_6"] = "step 2 of 6";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_3_OF_6"] = "step 3 of 6";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_4_OF_6"] = "step 4 of 6";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_5_OF_6"] = "step 5 of 6";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_6_OF_6"] = "step 6 of 6";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_1_OF_6_TITLE"] = "Where do I start?";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_1_OF_6_DESCRIPTION_1"] = "Follow the link and click Start <span class=\"imconnector-link\"><a href=\"https://telegram.me/BotFather\" target=\"_blank\">https://telegram.me/BotFather</a></span>";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_2_OF_6_TITLE"] = "Bot creation";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_2_OF_6_DESCRIPTION_1"] = "Select command for new bot creation <span class=\"imconnector-link\">/newbot</span>";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_3_OF_6_TITLE"] = "Bot name";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_3_OF_6_DESCRIPTION_1"] = "Name the bot that your clients will use to locate and interact with your company via Telegram. This name will be displayed in the contact list as well as Telegram's public chats";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_4_OF_6_TITLE"] = "Bot login";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_4_OF_6_DESCRIPTION_1"] = "This is your Telegram bot name. Clients will be able to find it in Telegram and it will be used to create a link to your bot.";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_5_OF_6_TITLE"] = "Receiving token";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_5_OF_6_DESCRIPTION_1"] = "Copy token you received";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_5_OF_6_DESCRIPTION_2"] = "Insert the token in the field below and click 'Save'";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_6_OF_6_TITLE"] = "Finish";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_3_STEPS_TITLE"] = "Follow these three steps to get a token for your Telegram bot";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_1_OF_3"] = "step 1 of 3";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_2_OF_3"] = "step 2 of 3";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_3_OF_3"] = "step 3 of 3";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_1_OF_3_TITLE"] = "Token retreival";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_1_OF_3_DESCRIPTION_1"] = "Follow the link <span class=\"imconnector-link\"><a href=\"https://telegram.me/BotFather\" target=\"_blank\">https://telegram.me/BotFather</a></span> and select command <span class=\"imconnector-link\">/token</span><br><br>
+You will see a list of all bots you created. Select a bot you'd like to connect to ThurlyOS open line. ";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_2_OF_3_TITLE"] = "Connect bot";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_2_OF_3_DESCRIPTION_1"] = "Copy token you received";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_2_OF_3_DESCRIPTION_2"] = "Insert the token in the field below and click 'Save'";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_3_OF_3_TITLE"] = "Finish";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_SIMPLE_FORM_DESCRIPTION_1"] = "If you already have a Telegram bot and you know its token, simply enter it in the field below and click 'Save'.";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_SIMPLE_FORM_DESCRIPTION_TESTED"] = "Please test the connection to make sure all data is entered correctly.";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_SIMPLE_FORM_DESCRIPTION_REGISTER"] = "You can now register your bot.";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_INDEX_DESCRIPTION"] = "Connect Telegram to Open channel to receive Telegram messages via ThurlyOS.  To do that, create new Telegram bot or connect an existing one. <br>If you don't have Telegram bot yet, we'll help you create it and connect to ThurlyOS. ";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_FINAL_FORM_DESCRIPTION_1"] = "Telegram is now connected to your Open channel. All messages sent via the bot will end up in ThurlyOS";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_6_OF_6_DESCRIPTION_1"] = "Telegram has been connected to your Open Channel. From now on, all messages sent to your bot will be forwarded to your ThurlyOS.";
+$MESS["IMCONNECTOR_COMPONENT_TELEGRAMBOT_STEP_3_OF_3_DESCRIPTION_1"] = "Telegram has been connected to your Open Channel. From now on, all messages sent to your bot will be forwarded to your ThurlyOS.";
+?>

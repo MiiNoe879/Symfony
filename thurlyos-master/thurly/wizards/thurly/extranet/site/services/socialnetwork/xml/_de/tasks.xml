@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2008-12-30T17:00:55">
+	<Metadata>
+		<Id>extranet_tasks</Id>
+		<Title>Aufgaben - Extranet</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sortieren</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Startzeit</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>Endzeit</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Vorschaubild</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>68</Id>
+				<Title>Priorität</Title>
+				<Multiple>false</Multiple>
+				<ChoiceValue>
+					<Value>   Hoch</Value>
+					<Choice>
+						<Id>1</Id>
+						<Value>   Hoch</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>100</Sort>
+					</Choice>
+					<Value>  Normal</Value>
+					<Choice>
+						<Id>2</Id>
+						<Value>  Normal</Value>
+						<ByDefault>true</ByDefault>
+						<Sort>200</Sort>
+					</Choice>
+					<Value> Niedrig</Value>
+					<Choice>
+						<Id>3</Id>
+						<Value> Niedrig</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>300</Sort>
+					</Choice>
+				</ChoiceValue>
+				<ThurlySort>100</ThurlySort>
+				<ThurlyCode>TaskPriority</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>L</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>30</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>true</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>true</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>true</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>69</Id>
+				<Title>Status</Title>
+				<Multiple>false</Multiple>
+				<ChoiceValue>
+					<Value>Nicht akzeptiert</Value>
+					<Choice>
+						<Id>NotAccepted</Id>
+						<Value>Nicht akzeptiert</Value>
+						<ByDefault>true</ByDefault>
+						<Sort>100</Sort>
+					</Choice>
+					<Value>Nicht akzeptiert</Value>
+					<Choice>
+						<Id>NotStarted</Id>
+						<Value>Nicht akzeptiert</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>200</Sort>
+					</Choice>
+					<Value>In Bearbeitung</Value>
+					<Choice>
+						<Id>InProgress</Id>
+						<Value>In Bearbeitung</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>300</Sort>
+					</Choice>
+					<Value>Abgeschlossen</Value>
+					<Choice>
+						<Id>Completed</Id>
+						<Value>Abgeschlossen</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>400</Sort>
+					</Choice>
+					<Value>Warten</Value>
+					<Choice>
+						<Id>Waiting</Id>
+						<Value>Warten</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>500</Sort>
+					</Choice>
+					<Value>Zurückgestellt</Value>
+					<Choice>
+						<Id>Deferred</Id>
+						<Value>Zurückgestellt</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>600</Sort>
+					</Choice>
+				</ChoiceValue>
+				<ThurlySort>200</ThurlySort>
+				<ThurlyCode>TaskStatus</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>L</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>30</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>true</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>true</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>true</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>70</Id>
+				<Title>Abgeschlossen (%)</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>300</ThurlySort>
+				<ThurlyCode>TaskComplete</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>N</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>5</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>true</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>true</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>71</Id>
+				<Title>Zuständig</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>400</ThurlySort>
+				<ThurlyCode>TaskAssignedTo</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>S</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>30</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>true</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>true</ThurlyFilterAllowed>
+				<ThurlyUserType>UserID</ThurlyUserType>
+				<ThurlyRequired>true</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>72</Id>
+				<Title>Über Änderungen benachrichtigen</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>500</ThurlySort>
+				<ThurlyCode>TaskAlert</ThurlyCode>
+				<ThurlyDefaultValue>Y</ThurlyDefaultValue>
+				<ThurlyPropertyType>S</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>30</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>true</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>true</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>73</Id>
+				<Title>Arbeitszeit (Stunden)</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>600</ThurlySort>
+				<ThurlyCode>TaskSize</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>N</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>5</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>true</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>true</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>78</Id>
+				<Title>An Ablaufzeit erinnern (in Tagen)</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>600</ThurlySort>
+				<ThurlyCode>TaskRemind</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>S</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>30</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>true</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>true</ThurlyFilterAllowed>
+				<ThurlyUserType>DateTime</ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>74</Id>
+				<Title>Verbracht (Stunden)</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>700</ThurlySort>
+				<ThurlyCode>TaskSizeReal</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>N</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>5</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>true</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>true</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>75</Id>
+				<Title>Aktuelles Datum der Fertigstellung</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>800</ThurlySort>
+				<ThurlyCode>TaskFinish</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>S</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>30</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>true</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>true</ThurlyFilterAllowed>
+				<ThurlyUserType>DateTime</ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>76</Id>
+				<Title>Anlage</Title>
+				<Multiple>true</Multiple>
+				<ThurlySort>900</ThurlySort>
+				<ThurlyCode>TaskFiles</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>F</ThurlyPropertyType>
+				<ThurlyRows>10</ThurlyRows>
+				<ThurlyColumns>60</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>true</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>true</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>77</Id>
+				<Title>Arbeitsstatusbericht</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>1000</ThurlySort>
+				<ThurlyCode>TaskReport</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>S</ThurlyPropertyType>
+				<ThurlyRows>10</ThurlyRows>
+				<ThurlyColumns>60</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>true</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>true</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+		</Properties>
+		<Sections>
+			<Section>
+				<Id>users_tasks</Id>
+				<Title>Anwenderaufgaben</Title>
+				<ThurlySort>500</ThurlySort>
+				<ThurlyCode></ThurlyCode>
+				<ThurlyPicture></ThurlyPicture>
+				<ThurlyDetailPicture></ThurlyDetailPicture>
+				<Sections>
+				</Sections>
+			</Section>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>extranet_tasks</Id>
+		<MetadataId>extranet_tasks</MetadataId>
+		<Title>Aufgaben - Extranet</Title>
+		<ThurlyCode>extranet_tasks</ThurlyCode>
+		<ThurlySort>500</ThurlySort>
+		<ThurlyListURL></ThurlyListURL>
+		<ThurlyDetailURL></ThurlyDetailURL>
+		<ThurlySectionURL></ThurlySectionURL>
+		<ThurlyPicture></ThurlyPicture>
+		<ThurlyIndexElements>false</ThurlyIndexElements>
+		<ThurlyIndexSections>false</ThurlyIndexSections>
+		<ThurlyWorkflow>false</ThurlyWorkflow>
+		<ThurlyLabels>
+			<ThurlyLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>Aufgabe</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>Aufgabe</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Neue Aufgabe</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Aufgabe bearbeiten</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Aufgabe löschen</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Kategorie</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Kategorien</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Neue Kategorie</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Kategorie bearbeiten</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Kategorie löschen</Value>
+			</ThurlyLabel>
+		</ThurlyLabels>
+		<Elements>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

@@ -1,0 +1,25 @@
+<?php
+namespace Thurly\Main\Web\DOM\Element;
+
+use Thurly\Main\Web\DOM\Element;
+
+class Input extends Element
+{
+	/**
+	 * @var string $name
+	 */
+	public $name = null;
+
+	public $value = null;
+
+	public function __construct($name, $value = null)
+	{
+		parent::__construct($name);
+
+		$this->name = strtolower($name);
+		if($value !== null)
+		{
+			$this->value = $value;
+		}
+	}
+}

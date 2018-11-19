@@ -1,0 +1,15 @@
+DROP TABLE if exists b_imopenlines_session;
+DROP TABLE if exists b_imopenlines_session_check;
+DROP TABLE if exists b_imopenlines_session_index;
+DROP TABLE if exists b_imopenlines_livechat;
+DROP TABLE if exists b_imopenlines_config;
+DROP TABLE if exists b_imopenlines_config_statistic;
+DROP TABLE if exists b_imopenlines_config_category;
+DROP TABLE if exists b_imopenlines_queue;
+DROP TABLE if exists b_imopenlines_operator_transfer;
+DROP TABLE if exists b_imopenlines_role;
+DROP TABLE if exists b_imopenlines_role_permission;
+DROP TABLE if exists b_imopenlines_role_access;
+DROP TABLE if exists b_imopenlines_tracker;
+DROP TABLE if exists b_imopenlines_rest_network_limit;
+DROP TABLE if exists b_imopenlines_user_relation;

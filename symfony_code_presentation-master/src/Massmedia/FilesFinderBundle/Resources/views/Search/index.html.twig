@@ -1,0 +1,16 @@
+{{ form_start(form) }}
+    {{ form_errors(form) }}
+
+    {{ form_row(form.search) }}
+    {{ form_widget(form.doSearch) }}
+{{ form_end(form) }}
+
+{% if showResults %}
+    <ul id="results">
+        {% for file in founded %}
+            <li>{{ file }}</li>
+        {% else %}
+            <li id="no_files">No files have been found.</li>
+        {% endfor %}
+    </ul>
+{% endif %}

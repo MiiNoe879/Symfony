@@ -1,0 +1,8 @@
+files_finder_search:
+    path:     /search
+    defaults: { _controller: FilesFinderBundle:Search:index }
+
+api_search:
+    type: rest
+    prefix: api/
+    resource: "Massmedia\FilesFinderBundle\Api\Controller\\SearchController"

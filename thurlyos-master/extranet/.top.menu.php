@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Home", 
+		"/extranet/index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Workgroups", 
+		"/extranet/workgroups/", 
+		Array(), 
+		Array(), 
+		"CBXFeatures::IsFeatureEnabled('Workgroups')" 
+	),
+	Array(
+		"Contacts", 
+		"/extranet/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

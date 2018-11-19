@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS `b_imconnectors_status` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `CONNECTOR` varchar(255) NOT NULL,
+  `LINE` varchar(255) NOT NULL,
+  `ACTIVE` varchar(1) NOT NULL,
+  `CONNECTION` varchar(1) NOT NULL,
+  `ERROR` varchar(1) NOT NULL,
+  `REGISTER` varchar(1) NOT NULL,
+  `DATA` longtext,
+  PRIMARY KEY (`ID`),
+  INDEX `CONNECTOR_LINE` (`CONNECTOR`(30), `LINE`)
+);
+
+CREATE TABLE IF NOT EXISTS `b_imconnectors_botframework` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `VIRTUAL_CONNECTOR` varchar(255) NOT NULL,
+  `ID_CHAT` varchar(255) NOT NULL,
+  `ID_MESSAGE` varchar(255) DEFAULT NULL,
+  `DATA` text,
+  PRIMARY KEY (`ID`),
+  INDEX `IDCHAT_VIRTUALCONNECTOR` (`ID_CHAT`(166),`VIRTUAL_CONNECTOR`(166))
+);

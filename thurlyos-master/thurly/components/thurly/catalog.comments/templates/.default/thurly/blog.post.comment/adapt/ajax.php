@@ -1,0 +1,1 @@
+<? require($_SERVER["DOCUMENT_ROOT"]."/thurly/components/thurly/catalog.comments/templates/.default/ajax.php"); ?>

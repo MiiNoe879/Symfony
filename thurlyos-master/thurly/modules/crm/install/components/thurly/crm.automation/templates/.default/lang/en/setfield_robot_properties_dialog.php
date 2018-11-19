@@ -1,0 +1,5 @@
+<?
+$MESS["CRM_AUTOMATION_SFA_DELETE"] = "Delete";
+$MESS["CRM_AUTOMATION_SFA_NOT_SELECTED"] = "not selected";
+$MESS["CRM_AUTOMATION_SFA_FIELDS_LIST"] = "Select field";
+?>

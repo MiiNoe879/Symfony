@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2008-12-30T17:30:11">
+	<Metadata>
+		<Id>calendar_groups_extranet</Id>
+		<Title>Groppenkalender - Extranet</Title>
+		<Description>Groppenkalender - Extranet</Description>
+		<Properties>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Startzeit</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>Endzeit</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Vorschaubild</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>39</Id>
+				<Title>Typ der Zeitdauer</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>500</ThurlySort>
+				<ThurlyCode>PERIOD_TYPE</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>S</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>30</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>false</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>false</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>40</Id>
+				<Title>Regelmäßigkeit</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>500</ThurlySort>
+				<ThurlyCode>PERIOD_COUNT</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>S</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>30</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>false</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>false</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>41</Id>
+				<Title>Dauer</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>500</ThurlySort>
+				<ThurlyCode>EVENT_LENGTH</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>S</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>30</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>false</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>false</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+			<Property>
+				<Id>42</Id>
+				<Title>Zusätzlich</Title>
+				<Multiple>false</Multiple>
+				<ThurlySort>500</ThurlySort>
+				<ThurlyCode>PERIOD_ADDITIONAL</ThurlyCode>
+				<ThurlyDefaultValue></ThurlyDefaultValue>
+				<ThurlyPropertyType>S</ThurlyPropertyType>
+				<ThurlyRows>1</ThurlyRows>
+				<ThurlyColumns>30</ThurlyColumns>
+				<ThurlyListType>L</ThurlyListType>
+				<ThurlyFileType>jpg, gif, bmp, png, jpeg</ThurlyFileType>
+				<ThurlyNumberOfInputs>5</ThurlyNumberOfInputs>
+				<ThurlyLinkedInformationBlock></ThurlyLinkedInformationBlock>
+				<ThurlyWithDescription>false</ThurlyWithDescription>
+				<ThurlyUsedInSearch>false</ThurlyUsedInSearch>
+				<ThurlyFilterAllowed>false</ThurlyFilterAllowed>
+				<ThurlyUserType></ThurlyUserType>
+				<ThurlyRequired>false</ThurlyRequired>
+			</Property>
+		</Properties>
+		<Sections>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>calendar_groups_extranet</Id>
+		<MetadataId>calendar_groups_extranet</MetadataId>
+		<Title>Groppenkalender - Extranet</Title>
+		<Description>Groppenkalender - Extranet</Description>
+		<ThurlyCode>calendar_groups_extranet</ThurlyCode>
+		<ThurlySort>200</ThurlySort>
+		<ThurlyListURL></ThurlyListURL>
+		<ThurlyDetailURL></ThurlyDetailURL>
+		<ThurlySectionURL></ThurlySectionURL>
+		<ThurlyPicture></ThurlyPicture>
+		<ThurlyIndexElements>false</ThurlyIndexElements>
+		<ThurlyIndexSections>false</ThurlyIndexSections>
+		<ThurlyWorkflow>false</ThurlyWorkflow>
+		<ThurlyLabels>
+			<ThurlyLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>Termin</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>Termine</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Neuer Termin</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Termin bearbeiten</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Termin löschen</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Kalender</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Kalender</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Add Calendar</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Kalender bearbeiten</Value>
+			</ThurlyLabel>
+			<ThurlyLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Kalender löschen</Value>
+			</ThurlyLabel>
+		</ThurlyLabels>
+		<Elements>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

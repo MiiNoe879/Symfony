@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/thurly/modules/socialnetwork/tools/sonet_group_set_owner.php");?>

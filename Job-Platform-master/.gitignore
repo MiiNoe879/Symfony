@@ -1,0 +1,6 @@
+
+# Cache, logs, etc
+/vendor
+/var
+/composer.lock
+/app/config/parameters.yml

@@ -1,0 +1,10 @@
+<?
+require_once($_SERVER["DOCUMENT_ROOT"]."/thurly/modules/main/include/prolog_before.php"); 
+$APPLICATION->IncludeComponent(
+    "thurly:crm.lead.rest",
+    "",
+    Array(
+    ),
+false
+);
+require($_SERVER["DOCUMENT_ROOT"]."/thurly/modules/main/include/epilog_after.php");?>

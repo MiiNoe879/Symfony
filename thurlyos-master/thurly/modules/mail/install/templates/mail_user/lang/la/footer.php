@@ -1,0 +1,4 @@
+<?
+$MESS["MAIL_USER_THURLY24_IMAGEFILE"] = "thurly-logo-en.gif";
+$MESS["MAIL_USER_THURLY24_IMAGEFILE_ALT"] = "ThurlyOS";
+?>

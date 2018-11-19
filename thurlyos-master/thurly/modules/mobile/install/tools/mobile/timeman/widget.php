@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/thurly/modules/mobile/tools/mobile/timeman/widget.php");?>

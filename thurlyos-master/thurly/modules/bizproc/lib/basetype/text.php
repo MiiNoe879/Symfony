@@ -1,0 +1,43 @@
+<?php
+namespace Thurly\Bizproc\BaseType;
+
+use Thurly\Bizproc\FieldType;
+
+/**
+ * Class Text
+ * @package Thurly\Bizproc\BaseType
+ */
+class Text extends StringType
+{
+	/**
+	 * @return string
+	 */
+	public static function getType()
+	{
+		return FieldType::TEXT;
+	}
+
+	/**
+	 * @param FieldType $fieldType
+	 * @param array $field
+	 * @param mixed $value
+	 * @param bool $allowSelection
+	 * @param int $renderMode
+	 * @return string
+	 */
+	protected static function renderControl(FieldType $fieldType, array $field, $value, $allowSelection, $renderMode)
+	{
+		$name = static::generateControlName($field);
+		$controlId = static::generateControlId($field);
+		$renderResult =  '<textarea class="'.htmlspecialcharsbx(static::generateControlClassName($fieldType, $field))
+			.'"rows="5" cols="40" id="'.htmlspecialcharsbx($controlId).'" name="'
+			.htmlspecialcharsbx($name).'">'.htmlspecialcharsbx((string) $value).'</textarea>';
+
+		if ($allowSelection)
+		{
+			$renderResult .= static::renderControlSelector($field, null, false, '', $fieldType);
+		}
+
+		return $renderResult;
+	}
+}

@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/thurly/modules/seo/admin/seo_sitemap_edit.php");?>
